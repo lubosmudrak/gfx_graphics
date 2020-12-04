@@ -24,9 +24,7 @@ piston-shaders_graphics2d = "0.4.0"
 piston-gfx_texture = "0.41.0"
 shader_version = "0.7.0"
 
-[dependencies.piston2d-graphics]
-version = "0.39.0"
-features = ["glyph_cache_rusttype"]
+piston2d-graphics = {git = "https://github.com/lubosmudrak/graphics", rev = "f5a3e7b13785e21228cd5ff02a1aa9687f9a28b2", features = ["glyph_cache_rusttype"]}
 
 [dev-dependencies]
 pistoncore-glutin_window = "0.67.0"
